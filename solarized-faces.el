@@ -169,6 +169,33 @@
                                       :foreground ,base1
                                       :underline ,s-line
                                       :weight bold))))
+;;;;; diredfl
+     `(diredfl-compressed-file-suffix ((,class (:foreground ,blue))))
+     `(diredfl-compressed-file-name ((,class (:foreground ,blue))))
+     `(diredfl-date-time ((,class (:foreground ,yellow))))
+     `(diredfl-deletion ((,class (:inherit error :inverse-video t))))
+     `(diredfl-deletion-file-name ((,class (:inherit error))))
+     `(diredfl-dir-name ((,class (:foreground ,blue))))
+     `(diredfl-dir-heading ((,class (:foreground ,green :background unspecified :weight bold))))
+     `(diredfl-dir-priv ((,class (:foreground ,blue :background unspecified))))
+     `(diredfl-exec-priv ((,class (:foreground ,orange :background unspecified))))
+     `(diredfl-executable-tag ((,class (:foreground ,red :background unspecified))))
+     `(diredfl-file-name ((,class (:foreground ,base0))))
+     `(diredfl-file-suffix ((,class (:foreground ,green))))
+     `(diredfl-flag-mark ((,class (:foreground ,green :inverse-video t))))
+     `(diredfl-flag-mark-line ((,class (:background unspecified :inherit highlight))))
+     `(diredfl-ignored-file-name ((,class (:inherit shadow))))
+     `(diredfl-link-priv ((,class (:background unspecified :foreground ,cyan))))
+     `(diredfl-mode-line-flagged ((,class (:foreground ,red))))
+     `(diredfl-mode-line-marked ((,class (:foreground ,green))))
+     `(diredfl-no-priv ((,class (:background unspecified))))
+     `(diredfl-number ((,class (:foreground ,green))))
+     `(diredfl-other-priv ((,class (:background unspecified :foreground ,magenta))))
+     `(diredfl-rare-priv ((,class (:foreground ,red :background unspecified))))
+     `(diredfl-read-priv ((,class (:foreground ,green :background unspecified))))
+     `(diredfl-symlink ((,class (:foreground ,cyan))))
+     `(diredfl-write-priv ((,class (:foreground ,yellow :background unspecified))))
+     
 ;;;;; display-fill-column-indicator
      `(fill-column-indicator ((,class :foreground ,base02 :weight semilight)))
 ;;;;; dropdown

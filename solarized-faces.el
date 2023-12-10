@@ -463,7 +463,7 @@
      `(corfu-default ((,class (:foreground ,base1 :background ,base02))))
      `(corfu-current ((,class (:background ,cyan-2bg))))
      `(corfu-bar ((,class (:background ,base0))))
-     `(corfu-border ((,class (:background ,base02))))
+     `(corfu-border ((,class (:background ,cyan-1bg))))
 ;;;;; consult
      `(consult-preview-insertion ((,class (:background ,base02))))
      `(consult-preview-line ((,class (:background ,base02))))

@@ -461,7 +461,7 @@
      `(company-tooltip-selection ((,class (:weight bold))))
 ;;;;; corfu
      `(corfu-default ((,class (:foreground ,base1 :background ,base02))))
-     `(corfu-current ((,class (:inherit corfu-default :weight bold :inverse-video t))))
+     `(corfu-current ((,class (:background ,cyan-2bg))))
      `(corfu-bar ((,class (:background ,base0))))
      `(corfu-border ((,class (:background ,base02))))
 ;;;;; consult
